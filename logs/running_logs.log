@@ -170,3 +170,72 @@ x==========x]
 [2023-08-11 21:20:32,716: INFO: main: >>>>>>> stage Data Validation Stage completed <<<<<<<
 
 x==========x]
+[2023-08-11 22:22:35,959: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-08-11 22:22:35,960: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-08-11 22:27:17,850: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-11 22:27:17,853: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-11 22:27:17,855: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-11 22:27:17,857: INFO: common: created directory at: artifacts]
+[2023-08-11 22:27:17,858: INFO: common: created directory at: artifacts/data_transformation]
+[2023-08-11 22:27:18,225: INFO: 1025767540: Splited data into training and test sets]
+[2023-08-11 22:27:18,226: INFO: 1025767540: (1199, 12)]
+[2023-08-11 22:27:18,227: INFO: 1025767540: (400, 12)]
+[2023-08-11 22:44:23,364: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2023-08-11 22:44:23,364: INFO: utils: NumExpr defaulting to 8 threads.]
+[2023-08-11 22:44:24,076: INFO: main: >>>>>>> stage Data Ingestion Stage started <<<<<<<]
+[2023-08-11 22:44:24,092: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-11 22:44:24,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-11 22:44:24,092: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-11 22:44:24,092: INFO: common: created directory at: artifacts]
+[2023-08-11 22:44:24,108: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-08-11 22:44:24,771: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9D62:11B5:86CD39:A267CD:64D6F20B
+Accept-Ranges: bytes
+Date: Sat, 12 Aug 2023 02:44:28 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ewr18147-EWR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1691808268.938001,VS0,VE75
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ca6499b6a7bc6f795016005529ac688fc66db146
+Expires: Sat, 12 Aug 2023 02:49:28 GMT
+Source-Age: 0
+
+]
+[2023-08-11 22:44:24,782: INFO: main: >>>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x==========x]
+[2023-08-11 22:44:24,782: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<<]
+[2023-08-11 22:44:24,784: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-11 22:44:24,785: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-11 22:44:24,786: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-11 22:44:24,787: INFO: common: created directory at: artifacts]
+[2023-08-11 22:44:24,787: INFO: common: created directory at: artifacts/data_validation]
+[2023-08-11 22:44:24,800: INFO: main: >>>>>>> stage Data Validation Stage completed <<<<<<<
+
+x==========x]
+[2023-08-11 22:44:24,800: INFO: main: >>>>>>> stage Data Validation Stage started <<<<<<<]
+[2023-08-11 22:44:24,807: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-08-11 22:44:24,808: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-08-11 22:44:24,809: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-08-11 22:44:24,809: INFO: common: created directory at: artifacts]
+[2023-08-11 22:44:24,810: INFO: common: created directory at: artifacts/data_transformation]
+[2023-08-11 22:44:24,836: INFO: data_transformation: Splited data into training and test sets]
+[2023-08-11 22:44:24,837: INFO: data_transformation: (1199, 12)]
+[2023-08-11 22:44:24,838: INFO: data_transformation: (400, 12)]
+[2023-08-11 22:44:24,838: INFO: main: >>>>>>> stage Data Validation Stage completed <<<<<<<
+
+x==========x]
